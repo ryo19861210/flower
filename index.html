@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <title>FA EXHIBITION</title>
+  <meta charset="utf-8">
+  <meta name="content" description="花のサイト">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <header class="header" id="header">
+    <div class="header__inner">
+      <div class="header__title header-title">
+        <a href="#">
+          <img class="logo" src="/img/logo.svg" alt="会社ロゴ">
+        </a>
+      </div>
+
+      <!-- ハンバーガーナビゲーションがwidth100%にしても90%くらいにしかならず、ロゴとサイドボタンの下に表示させたいがz-indexを使用しても上に重なってしまう -->
+      <nav class="header__nav nav" id="js-nav">
+        <ul class="nav__items nav-items">
+          <li class="nav-items__item"><a href="#">TOP</a></li>
+          <li class="nav-items__item"><a href="#information">INFORMATION</a></li>
+          <li class="nav-items__item"><a href="#gallery">GALLERY</a></li>
+          <li class="nav-items__item"><a href="#access">ACCESS</a></li>
+          <li class="nav-items__item"><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+
+      <button class="header__hamburger hamburger" id="js-hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="container">
+  <main>
+    <div class="mainvisual">
+      <img src="/img/mainvisual1.jpeg" alt="花の写真">
+      <img src="/img/mainvisual2.jpeg" alt="花の写真">
+      <img src="/img/mainvisual3.jpeg" alt="花の写真">
+    </div>
+
+    <div class="container">
+      <div class="title fadeUpTrigger">
+        <h1>Hello Flower!<br>FA EXHIBITION 2021</h1>
+      </div>
+
+
+      <div id="information" class="fadeUpTrigger">
+        <h2>INFORMATION</h2>
+        <p class="p_title">2021 JUL 1(THU)-3(SAT)</p>
+        <p>DAY1 10am-6pm OTHER 10am-5:30pm</p>
+        <h3>at PARK SIDE HALL</h3>
+        <p>2021年7月1日(木)ー3日(土)<br>Day1 10時〜18時 その他 10時〜17時30分</p>
+      </div>
+
+      <!-- サイドボタン -->
+      <div id="side-btn">
+        <a href="#">FOR EXHIBITOR</a>
+        <a href="#">FOR VISITOR</a>
+      </div>
+
+<div class="wrapper">
+      <div id="gallery" class="fadeUpTrigger">
+        <h2>GALLERY</h2>
+        <ul class="grid">
+          <li class="fadeUpTrigger"><img src="/img/flower1.jpeg" alt="花の写真"></li>
+          <li class="fadeUpTrigger"><img src="/img/flower2.jpeg" alt="花の写真"></li>
+          <li class="fadeUpTrigger"><img src="/img/flower3.jpeg" alt="花の写真"></li>
+          <li class="fadeUpTrigger"><img src="/img/flower4.jpeg"></li>
+          <li class="fadeUpTrigger"><img src="/img/flower5.jpeg" alt="花の写真"></li>
+          <li class="fadeUpTrigger"><img src="/img/flower6.jpeg" alt="花の写真"></li>
+      </div>
+      </div>
+
+      <div id="access">
+        <h2>ACCESS</h2>
+        <h3>PARK SIDE HALL</h3>
+        <p>〒152-0035 東京都目黒区自由が丘1-1-1 PARK SIDE HALL<br>PARK SIDE HALL, 1-1-1 Jiyugaoka, Meguro-ku, Tokyo</p>
+        <div class="tel_mail">
+          <p>Tel: 03-1111-1111<br>
+            E-mail: info@xxxxxxx.jp</p>
+        </div>
+        <a class="google_map_btn" href="#">GOOGLE MAP</a>
+      </div>
+<div class="wrapper">
+      <div id="contact">
+        <h2>CONTACT</h2>
+        <a class="contact_btn" href="#">出展に関するお問い合わせ</a>
+        <a class="contact_btn" href="#">その他のお問い合わせ</a>
+
+      </div>
+    </div>
+    </div>
+    <!-- access部分の背景画像 -->
+    <div class="bg"></div>
+  </main>
+
+  <footer>
+    <div class="footer_title">
+      <p>FA EXHIBITION</p>
+      <p>〒152-0035 東京都目黒区自由が丘1-1-1 PARK SIDE HALL</p>
+      <p>Tel: 03-1111-1111</p>
+      <p>E-mail: info@xxxxxxx.jp</p>
+    </div>
+    <div class="footer_lower">
+      <div class="footer_nav">
+        <p><a href="#">Twitter</a></p>
+        <p><a href="#">Facebook</a></p>
+        <p><a href="#">Instagram</a></p>
+      </div>
+
+      <div class="footer_right">
+        <p><a href="#">PRIVACY POLICY</a></p>
+        <p>&copy;FA EXHIBITION</p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="/js/main.js"></script>
+  </div>
+</body>
+
+</html>
