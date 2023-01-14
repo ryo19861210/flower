@@ -464,7 +464,7 @@ footer .footer_lower .footer_right {
 }
 
 .bg {
-  background: url(/img/bg.jpeg) center center repeat !important;
+  background: url(https://github.com/ryo19861210/flower/blob/main/img/bg.jpeg?raw=true) center center repeat !important;
   width: 100vw;
   height: 100vh;
   position: fixed;
